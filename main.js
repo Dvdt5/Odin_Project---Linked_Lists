@@ -13,3 +13,5 @@ list.append("cat");
 list.prepend("snake");
 
 console.log(list.toString());
+list.insertAt("panda",11);
+console.log(list.toString());
